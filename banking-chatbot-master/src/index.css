@@ -1,0 +1,82 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background: rgba(213,223,235,255);
+}
+
+.voiceImg{
+  width: 50px;
+  height: 50px;
+  color: white;
+}
+
+.main-voice{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.buttons-next{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background: #363062;
+  color: #FFF;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1.1em;
+  padding: 2%;
+}
+
+.button-mic{
+  width: 100px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background: #363062;
+  color: #FFF;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1.1em;
+  padding-left: 3px;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 5px;
+}
+
+.p-transcript{
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20%;
+  font-size: xx-large;
+  background: #363062;
+  color: #FFF;
+}
+
+.p-mic{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20%;
+  color: #fff;
+  background-color: #000;
+}
+
